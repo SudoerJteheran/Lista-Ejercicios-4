@@ -19,5 +19,6 @@ public class InmuebleVivienda extends Inmueble {
         super.mostrarDatos();
         System.out.println("Numero de baños: " + numBanos);
         System.out.println("Precio de venta:" + precio);
+        System.out.println();
     }
 }
