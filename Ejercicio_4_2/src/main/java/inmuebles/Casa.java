@@ -15,5 +15,6 @@ public class Casa extends InmuebleVivienda{
     void mostrarDatos(){
         super.mostrarDatos();
         System.out.println("Numero de pisos: " + numPisos);
+        System.out.println();
     }
 }
