@@ -7,7 +7,7 @@ public class LocalComercial extends Local {
 
     //Valor por area del local
     protected static double valorArea = 3000000;
-    protected String centroComer:
+    protected String centroComer;
 
     //Constructor
     public LocalComercial(int idInmobiliario, int area, String direccion, tipo tipoLocal, String centroComer) {
