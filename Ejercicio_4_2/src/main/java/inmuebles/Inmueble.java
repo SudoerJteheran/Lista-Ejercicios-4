@@ -15,9 +15,8 @@ public class Inmueble {
 
     //Metodos de la clase---------------------------------------------
     //Metodo para calcular el precio de venta
-    double calcularPrecioVenta(double valArea){
-        precio = area * valArea;
-        return precio;
+    void calcularPrecioVenta(double valArea){
+        this.precio = area * valArea;
     }
 
     //Metodo que muestra los datos del inmueble
