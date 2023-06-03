@@ -3,7 +3,7 @@ package inmuebles;
 public class CasaConjCerr extends CasaUrbana {
     protected static double valorArea = 2500000;
     // Atributo para asignar el valor de administracion
-    protected int valorAdm;
+    protected double valorAdm;
     protected boolean tienePiscina;
     protected boolean campDeportes;
 
