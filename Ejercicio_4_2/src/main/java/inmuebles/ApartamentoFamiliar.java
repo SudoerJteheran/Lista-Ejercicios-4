@@ -3,7 +3,7 @@ package inmuebles;
 public class ApartamentoFamiliar extends Apartamento {
     protected static double valorArea = 2000000;
     // Atributo para asignar el valor de administracion
-    protected int valorAdm;
+    protected double valorAdm;
     // Numero de pisos del apt
     protected int piso;
 
