@@ -25,23 +25,22 @@ nombre científico de un animal */
 * @return El nombre científico del animal
 */
 
-public abstract String getNombreCientífico();
+    public abstract String getNombreCientífico();
 /**
 * Método abstracto que permite obtener el sonido producido por el
 * animal
 * @return El sonido producido por el animal
 */
-public abstract String getSonido();
+    public abstract String getSonido();
 /**
 * Método abstracto que permite obtener los alimentos que consume
 * un animal
 * @return Los alimentos que consume el animal
 */
-public abstract String getAlimentos();
+    public abstract String getAlimentos();
 /**
 * Método abstracto que permite obtener el hábitat de un animal
 * @return El hábitat del animal
 */
-public abstract String getHábitat();
-
+    public abstract String getHábitat();
 }
