@@ -15,6 +15,7 @@ public class ApartamentoFamiliar extends Apartamento {
     }
 
     //Metodos de la clase---------------------------------------------
+    @Override
     void mostrarDatos(){
         super.mostrarDatos();
         System.out.println("Valor de administracion: " + valorAdm);

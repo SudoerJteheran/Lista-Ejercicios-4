@@ -16,6 +16,7 @@ public class CasaConjCerr extends CasaUrbana {
     }
 
     //Metodos de la clase---------------------------------------------
+    @Override
     void mostrarDatos() {
         super.mostrarDatos();
         System.out.println("Valor de administracion: " + valorAdm);

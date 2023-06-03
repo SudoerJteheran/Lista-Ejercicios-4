@@ -8,6 +8,7 @@ public class CasaIndep extends CasaUrbana{
         super(idInmueble, direccion, area, numHabitaciones, numBanos, numPisos);
     }
 
+    @Override
     void mostrarDatos() {
         super.mostrarDatos();
         System.out.println();

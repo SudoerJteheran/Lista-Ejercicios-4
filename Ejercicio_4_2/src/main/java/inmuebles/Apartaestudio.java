@@ -9,6 +9,7 @@ public class Apartaestudio extends Apartamento {
     }
 
     //Metodos de la clase---------------------------------------------
+    @Override
     void mostrarDatos(){
         super.mostrarDatos();
         System.out.println();

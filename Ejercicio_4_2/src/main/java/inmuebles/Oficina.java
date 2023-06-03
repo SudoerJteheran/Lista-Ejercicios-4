@@ -13,6 +13,7 @@ public class Oficina extends Local {
     }
 
     //Metodos de la clase----------------------
+    @Override
     void mostrarDatos() {
         super.mostrarDatos();
         System.out.println("Es oficina del gobierno: " + gubernam);

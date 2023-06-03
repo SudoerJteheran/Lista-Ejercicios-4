@@ -8,6 +8,7 @@ public class Apartamento extends InmuebleVivienda{
     }
 
     //Metodos de la clase---------------------------------------------
+    @Override
     void mostrarDatos(){
         super.mostrarDatos();
     }

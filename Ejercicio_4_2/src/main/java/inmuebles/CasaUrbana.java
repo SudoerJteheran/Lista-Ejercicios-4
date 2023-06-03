@@ -7,6 +7,7 @@ public class CasaUrbana extends Casa{
     }
 
     //Metodos de la clase---------------------------------------------
+    @Override
     void mostrarDatos(){
         super.mostrarDatos();
     }

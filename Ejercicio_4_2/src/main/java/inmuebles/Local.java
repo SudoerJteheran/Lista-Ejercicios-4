@@ -11,8 +11,6 @@ public class Local extends Inmueble {
     }
 
     //Metodos de la clase-----------------------------------------
-
-
     @Override
     void mostrarDatos() {
         super.mostrarDatos();

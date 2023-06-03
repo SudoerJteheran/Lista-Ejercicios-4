@@ -16,6 +16,7 @@ public class LocalComercial extends Local {
     }
 
     //Metodos de la clase------------------------------------------------
+    @Override
     void mostrarDatos() {
         super.mostrarDatos();
         System.out.println("Centro comercial: " + centroComer);

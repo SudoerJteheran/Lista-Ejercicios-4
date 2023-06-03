@@ -17,6 +17,7 @@ public class CasaRural extends Casa {
     }
 
     //Metodos de la clase---------------------------------------------
+    @Override
     void mostrarDatos() {
         super.mostrarDatos();
         System.out.println("Distancia al municipio mas cercano: " + distCab + " km");
