@@ -30,12 +30,12 @@ public class ejercicio_4_2 {
         System.out.println("Datos casa rural.");
         casa1.mostrarDatos();
 
-        CasaConjCerr casa2 = new CasaConjCerr(546234, "Calle 4 Carrera 11 4-11", 110, 4, 2, 2, 500000, true, true);
+        CasaConjCerr casa2 = new CasaConjCerr(546234, "Calle 5 Carrera 71 9-91", 110, 4, 2, 2, 500000, true, true);
         casa2.calcularPrecioVenta(CasaConjCerr.valorArea);
         System.out.println("Datos casa conjunto cerrado.");
         casa2.mostrarDatos();
 
-        CasaIndep casa3 = new CasaIndep(9879679, 150,"Calle 4 Carrera 11 4-11", 3, 6, 3);
+        CasaIndep casa3 = new CasaIndep(9879679, 150,"Calle 8 31 6-17", 3, 6, 3);
         casa3.calcularPrecioVenta(CasaIndep.valorArea);
         System.out.println("Datos casa independiente.");
         casa3.mostrarDatos();
