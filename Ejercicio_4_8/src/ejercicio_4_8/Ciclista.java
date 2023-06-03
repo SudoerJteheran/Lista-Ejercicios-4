@@ -26,7 +26,7 @@ abstract class Ciclista {
     }
 
     //Getters and Setters
-    protected String getIdentificador() {
+    protected int getIdentificador() {
         return identificador;
     }
     protected void setIdentificador(int identificador) {
