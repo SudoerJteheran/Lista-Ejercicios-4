@@ -5,12 +5,12 @@ public class ApartamentoFamiliar extends Apartamento {
     // Atributo para asignar el valor de administracion
     protected int valorAdm;
     // Numero de pisos del apt
-    protected int pisos;
+    protected int piso;
 
     //Constructor
-    public ApartamentoFamiliar(int idInmueble, String direccion, int area, int numHabitaciones, int numBanos, int pisos, int valorAdm){
+    public ApartamentoFamiliar(int idInmueble, String direccion, int area, int numHabitaciones, int numBanos, int piso, int valorAdm){
         super(idInmueble, direccion, area, numHabitaciones, numBanos);
-        this.pisos = pisos;
+        this.piso = piso;
         this.valorAdm = valorAdm;
     }
 
