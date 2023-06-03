@@ -31,8 +31,28 @@ public class Ejercicio_4_1 {
 
         cuentaAhorros.retirar(cantidadRetiro);
         cuentaAhorros.extMensual();
-
         cuentaAhorros.datos();
+
+        //Testeamos la cuenta corriente
+        System.out.println("Cuenta corriente ");
+        System.out.println("Ingrese el saldo inicial: ");
+        float saldoInicial2 = entrada.nextFloat();
+
+        System.out.println("Ingrese la tasa de interes anual: ");
+        float tasaAnual2 = entrada.nextFloat();
+
+        Cuenta_Corriente cuentaCorriente = new Cuenta_Corriente(saldoInicial2, tasaAnual2);
+
+        System.out.println("Ingresar cantidad a consignar: $");
+
+        float cantidadDeposito2 = entrada.nextFloat();
+        cuentaCorriente.consignar(cantidadDeposito2);
+
+        System.out.println("Ingresar cantidad a retirar: $");
+        float cantidadRetiro2 = entrada.nextFloat();
+
+        cuentaCorriente.retirar(cantidadRetiro2);
+        cuentaCorriente.extMensual();
+        cuentaCorriente.datos();
     }
-    
 }
