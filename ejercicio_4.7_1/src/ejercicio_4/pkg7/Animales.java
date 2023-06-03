@@ -12,13 +12,13 @@ package ejercicio_4.pkg7;
 * @version 1.2/2020
 */
 public abstract class Animales {
-protected String sonido; /* Atributo que identifica el sonido emitido
+    protected String sonido; /* Atributo que identifica el sonido emitido
 por un animal */
-protected String alimentos; /* Atributo que identifica los alimentos
+    protected String alimentos; /* Atributo que identifica los alimentos
 que consume un animal */
-protected String hábitat; /* Atributo que identifica el hábitat de un
+    protected String hábitat; /* Atributo que identifica el hábitat de un
 animal */
-protected String nombreCientífico; /* Atributo que identifica el
+    protected String nombreCientífico; /* Atributo que identifica el
 nombre científico de un animal */
 /**
 * Método abstracto que permite obtener el nombre científico del animal

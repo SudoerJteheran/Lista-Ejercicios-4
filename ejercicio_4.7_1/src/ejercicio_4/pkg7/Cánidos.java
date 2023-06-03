@@ -9,6 +9,4 @@ package ejercicio_4.pkg7;
  * @author manue
  */
 public abstract class Cánidos extends Animales{
-    
-    
 }
