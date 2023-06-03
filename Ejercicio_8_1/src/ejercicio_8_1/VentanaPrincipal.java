@@ -117,7 +117,7 @@ public class VentanaPrincipal extends javax.swing.JFrame implements ActionListen
 
     //Metodos para los botones
     private void añadirPersona(){
-        Persona p = new Persona(txtNombre.getText(), txtApellido.getText(), Integer.parseInt(txtTelefono.getText()), txtDireccion.getText());
+        Persona p = new Persona(txtNombre.getText(), txtApellido.getText(), txtTelefono.getText(), txtDireccion.getText());
         lista.añadirPersona(p);
         modelo.addElement(txtNombre.getText()+"-"+txtApellido.getText()+"-"+txtTelefono.getText()+"-"+txtDireccion.getText());
         listaNombres.setModel(modelo);

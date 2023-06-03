@@ -11,10 +11,10 @@ package ejercicio_8_1;
 public class Persona {
     private String nombre;
     private String apellido;
-    private int telefono;
+    private String telefono;
     private String direccion;
 
-    public Persona(String nombre, String apellido, int telefono, String direccion) {
+    public Persona(String nombre, String apellido, String telefono, String direccion) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.telefono = telefono;
