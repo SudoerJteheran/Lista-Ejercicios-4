@@ -12,6 +12,7 @@ public class Casa extends InmuebleVivienda{
     }
 
     //Metodos de la clase---------------------------------------------
+    @Override
     void mostrarDatos(){
         super.mostrarDatos();
         System.out.println("Numero de pisos: " + numPisos);

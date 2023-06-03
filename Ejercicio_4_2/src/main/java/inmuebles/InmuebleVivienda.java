@@ -15,6 +15,7 @@ public class InmuebleVivienda extends Inmueble {
         this.numBanos = numBanos;
     }
 
+    @Override
     void mostrarDatos(){
         super.mostrarDatos();
         System.out.println("Numero de baños: " + numBanos);
