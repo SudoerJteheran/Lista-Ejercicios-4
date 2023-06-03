@@ -15,26 +15,23 @@ public class Ejercicio_47 {
 * hábitat
      * @param args
 */
-public static void main(String[] args) {
-Animales[] animales; /* Define un array de cuatro
-elementos de tipo Animal */
-animales = new Animales[4];
-animales[0] = new Gato();
-animales[1] = new Perro();
-animales[2] = new Lobo();
-animales[3] = new León();
-    for (Animales animale : animales) {
+    public static void main(String[] args) {
+        Animales[] animales; /* Define un array de cuatro
+        elementos de tipo Animal */
+        animales = new Animales[4];
+        animales[0] = new Gato();
+        animales[1] = new Perro();
+        animales[2] = new Lobo();
+        animales[3] = new León();
+        
+        for (Animales animale : animales) {
         /* Recorre el array de
         animales */
-        System.out.println(animale.getNombreCientífico());
-        System.out.println("Sonido: " + animale.getSonido());
-        System.out.println("Alimentos: " + animale.getAlimentos());
-        System.out.println("Habitat: " + animale.getHábitat());
-        System.out.println();
+            System.out.println(animale.getNombreCientífico());
+            System.out.println("Sonido: " + animale.getSonido());
+            System.out.println("Alimentos: " + animale.getAlimentos());
+            System.out.println("Habitat: " + animale.getHábitat());
+            System.out.println();
+        }
     }
 }
-}
-
-    
-    
-
