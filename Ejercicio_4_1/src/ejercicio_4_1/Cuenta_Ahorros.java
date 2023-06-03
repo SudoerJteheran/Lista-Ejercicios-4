@@ -54,8 +54,8 @@ public class Cuenta_Ahorros extends Cuenta{
     para mostrar los datos de la cuenta*/
     public void datos() {
         System.out.println("Sado = $" + saldo);
-        System.out.println("Comisión mensual: $" + comiMensual);
-        System.out.println("Número de transacciones: " + (numRetiros + numConsig));
+        System.out.println("Comision mensual: $" + comiMensual);
+        System.out.println("Numero de transacciones: " + (numRetiros + numConsig));
         System.out.println();
     }
 }
