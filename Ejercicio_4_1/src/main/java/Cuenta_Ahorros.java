@@ -10,19 +10,21 @@ public class Cuenta_Ahorros extends Cuenta{
         }
     }
 
+    @Override
     public void retirar(float cantidad) {
         if (activa) // Si la cuenta está activa, se puede retirar dinero
             super.retirar(cantidad); /* Invoca al método retirar de la clase
                                      padre */
     }
 
+    @Override
     public void consignar(float cantidad) {
         if (activa) // Si la cuenta está activa, se puede consignar dinero
             super.consignar(cantidad); /* Invoca al método consignar de la clase
                                         padre */
     }
 
-
+    @Override
     public void extractoMensual() {
     /* Si la cantidad de retiros es superior a cuatro, se genera una
     comisión mensual */
