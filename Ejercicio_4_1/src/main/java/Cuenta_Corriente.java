@@ -6,6 +6,7 @@ public class Cuenta_Corriente extends Cuenta{
         sobregiro = 0;
     }
 
+    @Override
     public void retirar(float cantidad) {
         float resultado = saldo - cantidad; // Se calcula un saldo temporal
         /* Si el valor a retirar supera el saldo de la cuenta, el valor
@@ -19,6 +20,7 @@ public class Cuenta_Corriente extends Cuenta{
         }
     }
 
+    @Override
     public void consignar(float cantidad) {
         float residuo = sobregiro - cantidad;
         // Si existe sobregiro la cantidad consignada se resta al sobregiro
@@ -39,6 +41,7 @@ public class Cuenta_Corriente extends Cuenta{
     }
 
 
+    @Override
     public void extractoMensual() {
         super.extractoMensual(); // Invoca al método de la clase padre
     }
